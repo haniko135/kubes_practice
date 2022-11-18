@@ -17,7 +17,6 @@ spec:
     spec:
       containers:
       - image: haniko135/virt6-firstattempt:1.2
-        command: ['sleep','3600']
         imagePullPolicy: Always
         name: frontend
         terminationMessagePath: /dev/termination-log
